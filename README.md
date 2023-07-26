@@ -61,7 +61,15 @@ Key feature targets not yet implemented:
 
 # Installing on Mac
 
-(TODO): somebody with Mac experience needs to fill this in. Probably similar to Linux.
+Install git, Python 3, and DotNET 7.
+Create a virtual Python environment, e.g. "myenv".
+Activate the virtual Python environment.
+Clone the StableSwarmUI repository.
+Change directory to the StableSwarmUI directory.
+Run the following command to install the StableSwarmUI dependencies:
+pip install -r requirements.txt
+Run the following command to launch the StableSwarmUI server:
+./launch-linux.sh
 
 # Documentation
 
